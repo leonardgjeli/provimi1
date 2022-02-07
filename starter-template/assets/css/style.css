@@ -1,0 +1,259 @@
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+.container {
+  background-image: url(/starter-template/assets/images/image\ 1.png);
+  height: 600px;
+  max-width: 100vw;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 0;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 26px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Josefin Sans;
+}
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+
+  letter-spacing: 6.82px;
+  color: #ffffff;
+}
+
+.input__form {
+  position: relative;
+}
+
+.input--form {
+  border: 0;
+  margin-top: 30px;
+  width: 400px;
+  height: 43px;
+  background: #ffffff;
+  position: absolute;
+  padding: 15px 75px 15px 15px;
+  box-sizing: border-box;
+  right: -27px;
+  text-align: center;
+}
+
+.btn--input {
+  position: absolute;
+  left: 298px;
+  top: 34px;
+  width: 60px;
+  height: 35px;
+}
+.btn--primary {
+  background: #5474fd;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+.navlogo {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 26px;
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.nav--links {
+  display: flex;
+  align-items: center;
+}
+.nav--links li {
+  display: inline-block;
+  margin-left: 50px;
+}
+.nav--links li a {
+  font-family: Josefin Sans;
+  text-decoration: none;
+  background: #5474fd;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.navbar {
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  background: #5474fd;
+}
+
+.chooseus {
+  background-image: url(/starter-template/assets/images/image\ 2.png);
+  height: 600px;
+  max-width: 100vw;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+.item__explore {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+.explore__images1 {
+  background-image: url(/starter-template/assets/images/Image3.png);
+  max-width: 350px;
+  width: 350px;
+  height: 220px;
+}
+.explore__images2 {
+  background-image: url(/starter-template/assets/images/image\ 4.png);
+  max-width: 350px;
+  width: 350px;
+  height: 220px;
+  margin-left: 130px;
+  margin-top: 10px;
+}
+h2 {
+  font-family: Aleo;
+  color: #ffffff;
+  font-size: 30px;
+}
+.paragraph {
+  margin-bottom: 35px;
+  margin-top: 25px;
+}
+.chooseus__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 50px;
+  color: #fff;
+  font-family: Josefin slab;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.explore--button {
+  border: none;
+  background-color: #5474fd;
+  font-family: Aleo;
+  font-style: normal;
+  font-weight: normal;
+  color: #fff;
+  margin-top: 30px;
+  width: 179px;
+  height: 35px;
+}
+.explore--button:hover {
+  background-color: #8198ff;
+  color: #5474fd;
+}
+
+.madrit {
+  background-image: url(/starter-template/assets/images/image5.png);
+
+  height: 700px;
+  max-width: 100vw;
+  width: 1400px;
+}
+.spain {
+  color: #ffffff;
+  width: 300px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  background: #232323;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  padding: 20px;
+}
+
+.madrid-spain {
+  padding: 200px;
+}
+.spain-madrit {
+  background-image: url(/starter-template/assets/images/image6.png);
+  height: 700px;
+  max-width: 100vw;
+  width: 1400px;
+}
+.spain--1 {
+  margin-left: 500px;
+  margin-top: 100px;
+}
+.sam--sumon {
+  background-image: url(/starter-template/assets/images/image7.png);
+  height: 700px;
+  max-width: 100vw;
+  width: 1400px;
+}
+.sam--sumon1 {
+  background-image: url(/starter-template/assets/images/image8.png);
+  width: 350px;
+  height: 220px;
+}
+.travelaround {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.travel--description {
+  width: 500px;
+  background: #232323;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  padding: 20px;
+  color: white;
+  margin-top: 67px;
+}
+
+.tourists-description {
+  margin: 0;
+  text-align: center;
+  padding-top: 50px;
+}
+.footer {
+  background: #232323;
+  width: 1773px;
+  height: 150px;
+}
+.footer--description {
+  margin-right: 450px;
+  padding: 20px;
+  text-align: center;
+}
+.travel {
+  color: #fff;
+  margin-right: 450px;
+  text-align: center;
+}
+.fa {
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.facebok {
+  margin-top: 20px;
+  margin-left: 600px;
+}
